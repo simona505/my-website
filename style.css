@@ -1,0 +1,87 @@
+/* Header */
+#myHeader {
+	color: white;
+	font-size: 200px;
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(0%, 0%);
+	color: white;
+	font-size: 3rem;
+	text-align: center;
+	z-index: 2;
+}
+
+/* Navbar */
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: space-around; /* die einzelnen Sachen werden angepasst */
+	z-index: 2; /* hält die Navbar oben */
+	border-color: darkslategrey;
+}
+
+.navbar li {
+	display: inline; /* sorgt für horizontales */
+}
+
+.navbar a {
+	color: darkslategray;
+	text-decoration: none;
+	padding: 14px 20px;
+	display: block;
+	font-size: 18px;
+	transition: color 0.3s, font-size 0.3s; /* Animation */
+}
+
+.navbar a:hover {
+	color: darkslategray;
+	font-size: 20px; /* Fontsize größer beim */
+	text-decoration: overline;
+}
+
+
+p {
+	padding-top: 100px;
+	width: 100%;
+	display: block;
+	height: 1000px;
+	background-color:#ffffff;
+	color: darkslategrey;
+	margin-top: 100px; /* Lässt den Content nicht mit der Navbar überlappen */
+	z-index: 3;
+}
+
+.icons {
+
+ height: 20px;
+ width: 20px;
+ margin-right: 10px;
+ 
+
+}
+#aboutus {
+
+	font-size: medium;
+
+}
+
+#background{
+
+	position:relative;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	height: 100%;
+
+
+}
