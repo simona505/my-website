@@ -1,0 +1,177 @@
+/* Header */
+#myHeader {
+	font-family: Cambria;
+	position: absolute;
+	transform: translate(0%, 0%);
+	color: rgb(255, 255, 255);
+	z-index: 2;
+	top: 25%;
+	left: 20px;
+	margin-top: 0%;
+	padding-top: 0%;
+	font-size: 300px;
+	position: fixed;
+}
+
+/* Navbar */
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0);
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: space-around; /* die einzelnen Sachen werden angepasst */
+	z-index: 2; /* hält die Navbar oben */
+	border-color: rgb(255, 255, 255);
+	z-index: 3;
+
+}
+
+.navbar li {
+	display: inline; /* sorgt für horizontales */
+}
+
+.navbar a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	padding: 14px 20px;
+	display: block;
+	font-size: 18px;
+	transition: color 0.3s, font-size 0.3s; /* Animation */
+}
+
+.navbar a:hover {
+	color: rgb(0, 0, 0);
+	font-size: 20px; /* Fontsize größer beim */
+	text-decoration: overline;
+}
+
+
+
+
+.icons {
+
+ height: 20px;
+ width: 20px;
+ margin-right: 10px;
+ 
+
+}
+#aboutus {
+
+	font-size: medium;
+
+}
+
+
+#background{
+
+	width: 100%;
+	z-index: 1;
+	object-fit: cover;
+	position: fixed;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.mountainparagraph{
+
+	position:relative;
+	width: 100%;
+	z-index: 2;
+	top: 600px;
+	
+}
+
+.paragraph {
+
+	color: rgb(194, 99, 238);
+	position:absolute;
+	top: 350px;
+	left: 200px;
+	right: 200px;
+
+}
+
+.darkmountain{
+
+	width:100%;
+	display: block;
+
+}
+
+.pics{
+
+	top: 500px;
+	width: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+
+}
+
+.pics li {
+
+	display: inline;
+	position: relative;
+    display: inline-block;
+    width: 30%;
+
+}
+
+.pics li:hover{
+	transform: scale(1.1);
+}
+
+.pics a {
+	top: 100px;
+	left: 50px;
+	right:50px;
+	padding: 50px;
+	position: absolute;
+	display: block;
+	color: rgb(52, 1, 76);
+	text-align: center;
+	background-color: rgb(194, 99, 238); /* Hintergrundfarbe */
+    border-radius: 20px; /* Abgerundete Ecken */
+	height: 200px;
+	width: 200px;
+}
+
+
+.picbutton{
+
+	color: rgb(194, 99, 238);
+	background-color: rgb(39, 233, 255);
+	font-style: italic;
+	border-radius: 10px; /* Abgerundete Ecken */
+    cursor: pointer; /* Mauscursor ändern */
+	padding: 10px 20px; /* Abstand innerhalb des Buttons */
+    font-size: 16px; /* Schriftgröße */
+    width: 150px; /* Breite des Buttons */
+    height: 50px; /* Höhe des Buttons */
+}
+
+.picbutton:hover{
+
+	color: rgb(39, 233, 255);
+	background-color: rgb(194, 99, 238);
+	size: 50cap;
+}
+
+#paragraphheader{
+
+	margin-bottom: 50px;
+	left: 600px;
+	top: 300px;
+	color: rgb(194, 99, 238);
+	position:absolute;
+	font-style: italic;
+}
